@@ -35,7 +35,7 @@ public class Cliente {
     @CPF(message = "CPF inválido")
     private String cpf;
 
-
+    @NotBlank(message = "Não pode ser em branco")
     private Date data_nascimento;
 
     @Override
